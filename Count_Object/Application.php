@@ -19,7 +19,7 @@ class Application
     public function __toString(): string
     {
         // TODO: Implement __toString() method.
-        return 'Application Name '.$this->name;
+        return 'Application Name '.$this->name.$this->arr;
     }
 
 }
